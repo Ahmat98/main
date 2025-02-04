@@ -1,60 +1,29 @@
-# Master Spring framework, Spring Boot, REST, JPA, Hibernate
+Mastering Spring Framework & Spring Boot – My Learning Journey
 
 
-[![Image](https://github.com/eazybytes/spring/blob/3.3.1/Spring.png "Master Spring framework, Spring Boot, REST, JPA, Hibernate")](https://www.udemy.com/course/spring-springboot-jpa-hibernate-zero-to-master/?referralCode=9FA65DAC46E91F6A225D)
+This repository documents my learning progress in mastering Spring Framework, Spring Boot, REST APIs, JPA, and Hibernate. I’m following along with various resources and building hands-on projects to strengthen my understanding of these technologies.
 
-**'Master Spring framework, Spring Boot, REST, JPA, Hibernate'** course will help in understanding about Spring framework and how to build web applications, Rest Services using Spring, Spring MVC, SpringBoot, Thymeleaf, Spring JDBC, Spring Data JPA etc
+🚀 Topics Covered
+✔️ Introduction to Spring Framework & its evolution
+✔️ IoC (Inversion of Control), DI (Dependency Injection) & AOP (Aspect-Oriented Programming)
+✔️ Spring Bean creation, scopes, and autowiring
+✔️ Spring MVC for building web applications
+✔️ Thymeleaf integration for dynamic web pages
+✔️ Spring Boot auto-configuration & DevTools
+✔️ Spring Security (Authentication, Authorization, CSRF, CORS)
+✔️ JPA & Hibernate for database interaction
+✔️ REST API development with Spring Boot
+✔️ Consuming REST APIs using Feign, WebClient, and RestTemplate
+✔️ Spring Boot Actuator for monitoring applications
+✔️ Deploying Spring Boot Apps on AWS Elastic Beanstalk
 
-## Topics covered in the course
-
-1) What is Spring framework ?
-2) Spring Vs Java EE
-3) Evolution of Spring and release timeline of Spring
-4) Different projects inside Spring
-5) Spring Core Concepts like Inversion of Control (IoC), Dependency Injection (DI) & Aspect-Oriented Programming (AOP)
-6) Different approaches of Beans creation inside Spring framework
-7) Bean Scopes inside Spring framework
-8) Autowiring of the Spring Beans
-9) Lombok library and Annotations
-10) Introduction to MVC pattern & overview of web apps
-11) Spring MVC internal architecture & how to create web applications using Spring MVC & Thymeleaf
-12) Spring MVC Validations
-13) How to build dynamic web apps using Thymeleaf & Spring
-14) Thymeleaf integration with Spring, Spring MVC, Spring Security
-15) Deep dive on Spring Boot, Auto-configuration
-16) Spring Boot Dev Tools
-17) Spring Boot H2 Database
-18) Securing web applications using Spring Security
-19) Authentication , Authorization, Role based access
-20) Cross-Site Request Forgery (CSRF) & Cross-Origin Resource Sharing (CORS)
-21) Database create, read, update, delete operations using Spring JDBC
-22) Introduction to ORM frameworks & database create, read, update, delete operations using Spring Data JPA/Hibernate
-23) Derived Query methods in JPA
-24) OneToOne, OneToMany, ManyToOne, ManyToMany mappings inside JPA/Hibernate
-25) Sorting, Pagination, JPQL inside Spring Data JPA
-26) Building Rest Services inside Spring
-27) Consuming Rest Services using OpenFeign, Web Client, RestTemplate
-28) Spring Data Rest & HAL Explorer
-29) Logging inside Spring applications
-30) Properties Configuration inside Spring applications
-31) Profiles inside Spring Boot applications
-32) Conditional Bean creation using Profiles
-33) Monitoring Spring Boot applications using SpringBoot Actuator & Spring Boot Admin
-34) Deploying SpringBoot App into cloud using AWS Elastic Beanstalk
-
-
-## Pre-requisite for the course
-
-- Good understanding on Core Java
-- Basic understanding on HTML, CSS, Web Apps but not mandatory
-- Interest to learn and explore about Spring framework
-
-# Important Links
-
-- Spring website to generate projects - https://start.spring.io/
-- Spring Website - https://spring.io/
-- Spring Projects website - https://spring.io/projects
-- Thymeleaf website - https://www.thymeleaf.org/
-- Lombok website - https://projectlombok.org/
-- AWS website - https://aws.amazon.com/
-- AWS Elastic Beanstalk - https://aws.amazon.com/elasticbeanstalk/
+🛠 Prerequisites
+Familiarity with Core Java
+Basic understanding of HTML, CSS, and web applications (optional but helpful)
+Eagerness to learn and explore Spring & Backend Development
+🔗 Useful Links
+Spring Initializr – Generate Spring Boot Projects
+Spring Official Documentation
+Thymeleaf – Templating Engine
+Lombok – Java Library
+AWS Elastic Beanstalk
