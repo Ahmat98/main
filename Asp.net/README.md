@@ -61,4 +61,4 @@ A similar **ASP.NET-based e-commerce platform**, but tailored for selling **elec
 ## 🤝 Let's Connect  
 I’m always open to **collaborations** and new **opportunities**! Feel free to reach out if you're interested in my work.  
 
-📩 **Contact Me:** [Your Email or LinkedIn] *(Replace with your actual contact info!)*  
+📩 **Contact Me:** [ahissen1998@gmail.com]  
