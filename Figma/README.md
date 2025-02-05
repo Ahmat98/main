@@ -12,9 +12,9 @@
 3. Use the designs for inspiration or adapt them to fit your projects.  
 
 ## 🎨 Get the Figma Designs  
-👉 [View My Figma Portfolio](https://www.figma.com/@yourusername) *(Replace with your actual Figma link!)*  
+👉 [View My Figma Portfolio](https://www.figma.com/@sitesoul) 
 
 ## 🤝 Let's Connect  
 I’m always open to **collaborations** and new **opportunities**! Feel free to reach out if you're interested in my work.  
 
-📩 **Contact Me:** [Your Email or LinkedIn] *(Replace with your actual contact info!)*  
+📩 **Contact Me:** [ahissen1998@gmail.com]
