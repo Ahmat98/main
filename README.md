@@ -8,29 +8,25 @@ Welcome to my **GitHub repository**, where I showcase my projects and expertise 
 This section contains my research and projects related to **robotics, automation, and embedded systems**.  
 
 - **Vehicle Accident Prevention System** – Uses ultrasonic sensors to enhance vehicle safety.  
-- **ABB IRB 140 Robot Simulation** – Kinematic and trajectory optimization for agricultural applications.  
-📄 [Read More](./Mechatronics/README.md)  
+- **ABB IRB 140 Robot Simulation** – Kinematic and trajectory optimization for agricultural applications.   
 
 ### 🎨 UI/UX Design (Figma)  
 A collection of my **Figma-based UI/UX designs**, including **website, mobile app, and dashboard prototypes**.  
 
 - Interactive design files and wireframes.  
-- Prototypes showcasing modern and user-friendly layouts.  
-📄 [Read More](./Figma/README.md)  
+- Prototypes showcasing modern and user-friendly layouts.   
 
 ### 💻 Desktop & Web Development (C# & ASP.NET)  
 This section includes **C# and ASP.NET projects**, focusing on **desktop applications and web solutions**.  
 
 - **Erasmus Student Management System** – A **C# Windows Forms** application for managing student records.  
-- **Accounting & Payroll System** – A **web-based ASP.NET** application for financial management.  
-📄 [Read More](./CSharp-ASP.NET/README.md)  
+- **Accounting & Payroll System** – A **web-based ASP.NET** application for financial management.   
 
 ### ☕ Java Backend Development  
 A collection of projects demonstrating **Java and Spring Boot** expertise, including:  
 
 - **RESTful API Development** – Using **Spring Boot, JPA, and Hibernate**.  
-- **Authentication & Security** – Implementing **Spring Security, JWT, and OAuth**.  
-📄 [Read More](./Java/README.md)  
+- **Authentication & Security** – Implementing **Spring Security, JWT, and OAuth**.   
 
 ---
 
@@ -42,4 +38,4 @@ A collection of projects demonstrating **Java and Spring Boot** expertise, inclu
 ## 🤝 Let's Connect  
 I’m passionate about **engineering, development, and innovation**. If you’d like to collaborate or discuss opportunities, feel free to reach out!  
 
-📩 **Contact Me:** [Your Email or LinkedIn] *(Replace with your actual contact info!)*  
+📩 **Contact Me:** [ahissen1998@gmail.com] 
