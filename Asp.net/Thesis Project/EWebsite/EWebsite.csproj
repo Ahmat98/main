@@ -1,0 +1,264 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E64D3AE-1EBF-493B-A569-34DB2D936697}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EWebsite</RootNamespace>
+    <AssemblyName>EWebsite</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44345</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Anasayfa.aspx" />
+    <Content Include="App_Data\AlisverisSt.accdb" />
+    <Content Include="elektronik\1.jpg" />
+    <Content Include="elektronik\2.jfif" />
+    <Content Include="elektronik\3.jpg" />
+    <Content Include="elektronik\5.jfif" />
+    <Content Include="elektronik\5.jpg" />
+    <Content Include="elektronik\6.jfif" />
+    <Content Include="elektronik\7.jfif" />
+    <Content Include="elektronik\8.jpg" />
+    <Content Include="elektronik\aboutus.png" />
+    <Content Include="elektronik\images.jfif" />
+    <Content Include="giris.aspx" />
+    <Content Include="Hakkımızda.aspx" />
+    <Content Include="iletisim.aspx" />
+    <Content Include="resim\002.jpg" />
+    <Content Include="resim\01.jpg" />
+    <Content Include="resim\02.jpg" />
+    <Content Include="resim\03.jpg" />
+    <Content Include="resim\04.jpg" />
+    <Content Include="resim\05.jpg" />
+    <Content Include="resim\06.jpg" />
+    <Content Include="resim\07.jpg" />
+    <Content Include="resim\08.jpg" />
+    <Content Include="resim\09.jpg" />
+    <Content Include="resim\1.jpg" />
+    <Content Include="resim\1.png" />
+    <Content Include="resim\10.jpg" />
+    <Content Include="resim\11.jpg" />
+    <Content Include="resim\12.jpg" />
+    <Content Include="resim\13.jpg" />
+    <Content Include="resim\14.jpg" />
+    <Content Include="resim\15.jpg" />
+    <Content Include="resim\16.jpg" />
+    <Content Include="resim\17.jpg" />
+    <Content Include="resim\2.jpg" />
+    <Content Include="resim\229098.png" />
+    <Content Include="resim\2484198.png" />
+    <Content Include="resim\2806981.png" />
+    <Content Include="resim\3.jpg" />
+    <Content Include="resim\3314305.png" />
+    <Content Include="resim\3689123.png" />
+    <Content Include="resim\4.jpg" />
+    <Content Include="resim\4609795.png" />
+    <Content Include="resim\5.jpg" />
+    <Content Include="resim\5771782.png" />
+    <Content Include="resim\950812.png" />
+    <Content Include="resim\download.jpg" />
+    <Content Include="resim\eleklogo.png" />
+    <Content Include="resim\elektroniklogo.jpg" />
+    <Content Include="resim\facbook.jpg" />
+    <Content Include="resim\images.jpg" />
+    <Content Include="resim\instrn.jpg" />
+    <Content Include="resim\k11.png" />
+    <Content Include="resim\k8.png" />
+    <Content Include="resim\loga.jpg" />
+    <Content Include="resim\logo.jpg" />
+    <Content Include="resim\new.png" />
+    <Content Include="resim\p1.jpg" />
+    <Content Include="resim\p2.jpeg" />
+    <Content Include="resim\p3.jpeg" />
+    <Content Include="resim\p4.jpg" />
+    <Content Include="resim\p5.jpg" />
+    <Content Include="resim\pexels-photo-586744.jpeg" />
+    <Content Include="resim\podlaskie-lomza.500.png" />
+    <Content Include="resim\profilo-cga141x0tr-9kg-camasir-makinesi-c8e6.jpg" />
+    <Content Include="resim\rek1.jpg" />
+    <Content Include="resim\rek2.jpg" />
+    <Content Include="resim\rek3.jpg" />
+    <Content Include="resim\rek4.jpg" />
+    <Content Include="resim\rek5.jpg" />
+    <Content Include="resim\search.jpg" />
+    <Content Include="resim\sepete.png" />
+    <Content Include="resim\spt.jpg" />
+    <Content Include="resim\t.png" />
+    <Content Include="resim\twiter.jpg" />
+    <Content Include="resim\twr.jpg" />
+    <Content Include="resim\Untitled-1.jpg" />
+    <Content Include="resim\Untitled-2.jpg" />
+    <Content Include="resim\Untitled-2.png" />
+    <Content Include="resim\Untitled-3.jpg" />
+    <Content Include="Sepete.aspx" />
+    <Content Include="sepeteEkle.aspx" />
+    <Content Include="uyeOl.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anasayfa.aspx.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.aspx.designer.cs">
+      <DependentUpon>Anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="giris.aspx.cs">
+      <DependentUpon>giris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="giris.aspx.designer.cs">
+      <DependentUpon>giris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hakkımızda.aspx.cs">
+      <DependentUpon>Hakkımızda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hakkımızda.aspx.designer.cs">
+      <DependentUpon>Hakkımızda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="iletisim.aspx.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iletisim.aspx.designer.cs">
+      <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="indexSite.Master.cs">
+      <DependentUpon>indexSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="indexSite.Master.designer.cs">
+      <DependentUpon>indexSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sepete.aspx.cs">
+      <DependentUpon>Sepete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sepete.aspx.designer.cs">
+      <DependentUpon>Sepete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sepeteEkle.aspx.cs">
+      <DependentUpon>sepeteEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sepeteEkle.aspx.designer.cs">
+      <DependentUpon>sepeteEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uyeOl.aspx.cs">
+      <DependentUpon>uyeOl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uyeOl.aspx.designer.cs">
+      <DependentUpon>uyeOl.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="indexSite.Master" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50066</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44345/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

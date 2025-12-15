@@ -1,0 +1,214 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="indexSite.master.cs" Inherits="EWebsite.indexSite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 220px;
+            height: 50px;
+        }
+
+        .auto-style2 {
+            height: 25px;
+            color: #000000;
+            background-color: #99FF99;
+        }
+
+        .auto-style3 {
+            width: 103px;
+            height: 50px;
+        }
+
+        .auto-style5 {
+            width: 780px;
+            height: 50px;
+        }
+
+        .auto-style6 {
+            width: 100%;
+            height: 174px;
+            color: #660066;
+        }
+
+        .auto-style7 {
+            color: #0066FF;
+        }
+
+        .auto-style8 {
+            background-color: #99FF99;
+            width: 200px;
+        }
+
+        .auto-style9 {
+            height: 310px;
+            background-color: #99FF99;
+            width: 200px;
+        }
+
+        .auto-style10 {
+            height: 310px;
+        }
+
+        .auto-style11 {
+            color: #800000;
+        }
+
+        .auto-style13 {
+            color: #000099;
+            font-size: x-large;
+        }
+
+        .auto-style14 {
+            height: 40px;
+            background-color: #99FF99;
+        }
+
+        .auto-style15 {
+            width: 200px;
+            height: 50px;
+        }
+
+        .auto-style16 {
+            height: 40px;
+            width: 200px;
+            background-color: #99FF99;
+        }
+
+        .auto-style17 {
+            height: 25px;
+            width: 200px;
+            background-color: #99FF99;
+        }
+
+        .auto-style18 {
+            font-size: x-large;
+            color: #0000CC;
+        }
+
+        .auto-style19 {
+            color: #000099;
+        }
+
+        .auto-style20 {
+            width: 200px;
+            height: 23px;
+            background-color: #99FF99;
+        }
+
+        .auto-style21 {
+            color: #800000;
+            height: 50px;
+        }
+    </style>
+</head>
+<body style="color: #CCCCCC; background-color: white">
+    <form id="form1" runat="server">
+        <div>
+            <table style="width: 850px; margin: 0 auto; border-right: 5px solid #99FF99">
+                <tr style="width: 850px; border-color: #00ff90; background-color: white">
+                    <td class="auto-style15">&nbsp;</td>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td align="center" class="auto-style5">&nbsp;</td>
+                    <td style="text-align: right" class="auto-style1">&nbsp;</td>
+                </tr>
+                <tr style="width: 100px; background-color: #5f9bf3">
+                    <td class="auto-style16">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td colspan="3" class="auto-style14">
+                        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" StaticSubMenuIndent="19px" CssClass="auto-style19" ForeColor="#000099">
+                            <Items>
+                                <asp:MenuItem Text="Anasayfa" Value="Anasayfa" NavigateUrl="Anasayfa.aspx"></asp:MenuItem>
+                                <%--<asp:MenuItem Text="Tüm Ürünler" Value="Tüm Ürünler"></asp:MenuItem>--%>
+                                <asp:MenuItem Text="Hakkımızda" Value="Hakkımızda" NavigateUrl="Hakkımızda.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="İletişim" Value="İletişim" NavigateUrl="iletisim.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="giriş" Value="giriş" NavigateUrl="giris.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Üye Ol" Value="Üye Ol" NavigateUrl="uyeOl.aspx"></asp:MenuItem>
+                            </Items>
+                            <StaticHoverStyle BackColor="#00f39b" BorderColor="#f2f2f2" BorderStyle="Outset" ForeColor="White" Height="40px" />
+                            <StaticMenuItemStyle Font-Bold="True" Font-Size="Large" ForeColor="#993300" HorizontalPadding="54px" />
+                            <StaticSelectedStyle BackColor="green" BorderColor="#FF6060" BorderStyle="Inset" ForeColor="#666666" Height="40px" />
+                        </asp:Menu>
+                    </td>
+                </tr>
+                <tr style="width: 100%; height: 40px; background-color: #5f9bf3">
+                    <td class="auto-style20">
+                        <asp:Image ID="Image3" runat="server" Height="100px" ImageUrl="~/resim/eleklogo.png" Style="margin-top: 0px" Width="100px" />
+                    </td>
+                    <td class="auto-style20" colspan="3">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr style="width: 850px;">
+                    <td class="auto-style9">
+                        <table class="auto-style6">
+                            <tbody class="auto-style7">
+                                <tr>
+                                    <td>
+                                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style13">Elektronik</asp:HyperLink>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="auto-style21">
+                                        <asp:HyperLink ID="HyperLink2" runat="server" CssClass="auto-style18">Elbise</asp:HyperLink>
+                                        <br />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="auto-style11">
+                                        <asp:HyperLink ID="HyperLink3" runat="server" CssClass="auto-style13">Telefon</asp:HyperLink>
+                                        <br />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="auto-style11">
+                                        <asp:HyperLink ID="HyperLink4" runat="server" CssClass="auto-style13">Diğer</asp:HyperLink>
+                                        <br />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="auto-style11">&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td colspan="3" class="auto-style10">
+                        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                            <ContentTemplate>
+
+                                <asp:Timer ID="Timer2" runat="server" Interval="2000" OnTick="Timer2_Tick"></asp:Timer>
+                                <asp:Image ID="Image2" runat="server" BackColor="White" BorderColor="Gray" BorderStyle="Double" Height="270px" Width="1150px" />
+
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style8">&nbsp;</td>
+                    <td colspan="3">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                            <asp:Button ID="Button1" runat="server" BackColor="Red" Font-Bold="True" Font-Size="Large" ForeColor="Black"  Text="Log up" />
+
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr style="width: 850px; background-color: black; text-align: center; color: white">
+                    <td class="auto-style17"></td>
+                    <td colspan="3" class="auto-style2">&copy; myWebsite
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </form>
+</body>
+</html>
